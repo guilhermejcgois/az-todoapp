@@ -2,7 +2,9 @@
   "name": "@az-todoapp/source",
   "version": "0.0.0",
   "license": "MIT",
-  "scripts": {},
+  "scripts": {
+    "prepare": "nx g @nx-dotnet/core:restore"
+  },
   "private": true,
   "dependencies": {
     "react": "18.2.0",
@@ -11,6 +13,7 @@
     "styled-components": "5.3.6"
   },
   "devDependencies": {
+    "@nx-dotnet/core": "^2.2.0",
     "@nx/eslint": "18.3.3",
     "@nx/eslint-plugin": "18.3.3",
     "@nx/js": "18.3.3",
